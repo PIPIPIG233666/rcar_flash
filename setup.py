@@ -25,5 +25,5 @@ setup(
             'rcar_flash=rcar_flash.rcar_flash:main',
         ],
     },
-    python_requires='>=3.9',
+    python_requires='>=3.8',
 )
