@@ -7,7 +7,10 @@ import pathlib
 import traceback
 import time
 from string import printable
-from importlib.resources import files
+try:
+    from importlib.resources import files
+except ImportError:
+    from importlib_resources import files
 
 import serial
 import serial.tools.list_ports
